@@ -1,0 +1,79 @@
+//---------------------------------------------------------------------------
+
+#ifndef Unit1H
+#define Unit1H
+//---------------------------------------------------------------------------
+#include <System.Classes.hpp>
+#include <Vcl.Controls.hpp>
+#include <Vcl.StdCtrls.hpp>
+#include <Vcl.Forms.hpp>
+#include <Vcl.Menus.hpp>
+#include <Vcl.Grids.hpp>
+#include <Vcl.ExtCtrls.hpp>
+#include <VCLTee.Chart.hpp>
+#include <VCLTee.Series.hpp>
+#include <VclTee.TeeGDIPlus.hpp>
+#include <VCLTee.TeEngine.hpp>
+#include <VCLTee.TeeProcs.hpp>
+//---------------------------------------------------------------------------
+class TForm1 : public TForm
+{
+__published:	// IDE-managed Components
+	TLabel *Label1;
+	TLabel *Label2;
+	TLabel *Label3;
+	TLabel *Label4;
+	TEdit *Edit1;
+	TEdit *Edit2;
+	TEdit *Edit3;
+	TMemo *Memo1;
+	TMainMenu *MainMenu1;
+	TMenuItem *N1;
+	TMenuItem *N2;
+	TMenuItem *N3;
+	TMenuItem *N4;
+	TMenuItem *N5;
+	TMenuItem *N6;
+	TPopupMenu *PopupMenu1;
+	TPopupMenu *PopupMenu2;
+	TMenuItem *N7;
+	TGroupBox *GroupBox1;
+	TCheckBox *CheckBox1;
+	TCheckBox *CheckBox2;
+	TCheckBox *CheckBox3;
+	TMenuItem *N8;
+	TStringGrid *StringGrid1;
+	TCheckBox *CheckBox4;
+	TEdit *Edit4;
+	TEdit *Edit5;
+	TEdit *Edit6;
+	TEdit *Edit7;
+	TMenuItem *N9;
+	TMenuItem *N10;
+	TMenuItem *N11;
+	TChart *Chart1;
+	TFastLineSeries *Series1;
+	TMenuItem *N12;
+	TChart *Chart2;
+	TFastLineSeries *Series2;
+	void __fastcall N6Click(TObject *Sender);
+	void __fastcall N8Click(TObject *Sender);
+	void __fastcall Edit1KeyPress(TObject *Sender, System::WideChar &Key);
+	void __fastcall Edit2KeyPress(TObject *Sender, System::WideChar &Key);
+	void __fastcall Edit3KeyPress(TObject *Sender, System::WideChar &Key);
+	void __fastcall N2Click(TObject *Sender);
+	void __fastcall N3Click(TObject *Sender);
+	void __fastcall N7Click(TObject *Sender);
+	void __fastcall N9Click(TObject *Sender);
+	void __fastcall N10Click(TObject *Sender);
+	void __fastcall N11Click(TObject *Sender);
+	void __fastcall N12Click(TObject *Sender);
+	void __fastcall N5Click(TObject *Sender);
+private:	// User declarations
+public:		// User declarations
+	__fastcall TForm1(TComponent* Owner);
+};
+//---------------------------------------------------------------------------
+extern PACKAGE TForm1 *Form1;
+//---------------------------------------------------------------------------
+#endif
